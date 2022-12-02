@@ -1,0 +1,339 @@
+* {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+  }
+  #header {
+    height: 5vw;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: fixed;
+    margin: 0;
+    padding: 0;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .nav-list {
+    list-style: none;
+    padding: 0;
+  }
+  .nav-item {
+    margin: 0.8vw 0.45vw 0.2vw;
+    text-align: center;
+  }
+  .nav-item,
+  .nav-item-link {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1vw;
+    color: #fff;
+  }
+  .nav-item:hover,
+  .nav-item-link:hover {
+    color: rgba(225, 225, 225, 0.7);
+  }
+  span {
+    color: rgb(19, 35, 161);
+  }
+  #logoteam {
+    font-size: 3vw;
+    color: rgb(0, 174, 255);
+    }
+  #slider {
+    padding: 25% 22.25%;
+  
+    background: url(https://i.pinimg.com/originals/cb/2c/51/cb2c51e5c790d216aa5c86e11dde8464.png) top center / cover no-repeat;
+  }
+  
+  .text-heading {
+    font-size: 3.2vw;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  .text-author {
+    font-size: 1.5vw;
+    left: 30%;
+    color: #fff;
+    text-align: center;
+  }
+  @-webkit-keyframes my {
+    0% {
+      color: rgb(60, 0, 179);
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: rgb(60, 0, 179);
+    }
+  }
+  @-moz-keyframes my {
+    0% {
+      color: rgb(60, 0, 179);
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: rgb(60, 0, 179);
+    }
+  }
+  @-o-keyframes my {
+    0% {
+      color: rgb(60, 0, 179);
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: rgb(60, 0, 179);
+    }
+  }
+  @keyframes my {
+    0% {
+      color: rgb(60, 0, 179);
+    }
+    50% {
+      color: #fff;
+    }
+    100% {
+      color: rgb(60, 0, 179);
+    }
+  }
+  .text-heading {
+    -webkit-animation: my 1000ms infinite;
+    -moz-animation: my 1000ms infinite;
+    -o-animation: my 1000ms infinite;
+    animation: my 1000ms infinite;
+  }
+  .reason {
+    font-size: 1.7vw;
+    height: 50%;
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 12% 25%;
+    background: rgba(6, 117, 172, 0.922);
+  }
+  .reason-title {
+    padding: 0 20%;
+  }
+  .reason-sub {
+    padding: 0.5% 30% 1.5%;
+    font-size: 1.6vw;
+  }
+  .reason-content {
+    font-size: 1.3vw;
+    color: #000;
+  }
+  .reason-img {
+    display: inline-block;
+    height: 12vw;
+    width: auto;
+    margin-top: 4%;
+    margin-left: 3%;
+  }
+  #reason-imga {
+    margin-left: 10%;
+  }
+  .grid {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #FFF6BF;
+  }
+  .bd{
+    border-bottom: 0.1px solid #000 ;
+  }
+  .grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  .grid__collum-2 {
+    margin-top: 20%;
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 15vw;
+    margin-left:3.5vw;
+  }
+  .grid__collum-10 {
+    padding: 0 4% 5% 4%;
+    width: 75vw;
+    background-color: #7FE9DE;
+  }
+  .category {
+    border-radius: 1vw;
+    background-color:#A5F1E9;
+    padding: 25% 0;
+    margin-right: 15%;
+  }
+  .category__heading {
+    padding: 5% 5%;
+    font-size: 1.3vw;
+  }
+  .category-list {
+    list-style: none;
+  }
+  .category-item-link {
+    text-decoration: none;
+    padding: 4% 8%;
+    display: block;
+    color: rgba(0, 0, 0, 0.668);
+    font-size: 1vw;
+  }
+  .category-item-link:hover {
+    color: rgba(4, 0, 255, 0.982);
+  }
+  .saline-water-heading {
+    margin: 8% 5% 2% ;
+    font-size: 4vw;
+  }
+  .saline-water-content,
+  .saline-water-detail {
+    list-style: none;
+  }
+  .saline-water__img {
+    height: 40vw;
+    width: auto;
+  }
+  .saline-water-content{
+    font-size: 1vw;
+  }
+  .price{
+    color: rgb(134, 9, 9);
+  }
+  .price:hover{
+    color: rgba(0, 102, 255,0.7);
+  }
+  .pc-item{
+    height: 20vw;
+    width: auto;
+  }
+  .ground{
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .row{
+    padding: 0;
+  }
+  .mt{
+    margin-top: 0.4vw;
+  }
+  .contact-content{
+    margin-top: 5%;
+    margin-bottom: 10%;
+  }
+  .row::after{
+    content: "";
+    display: block;
+    clear:both;
+  }
+  .col{
+    float: left;
+    padding: 0 2%;
+  
+  }
+  .col-half{
+    width: 50%;
+    
+  }
+  .col-third{
+    width: 33.33%;
+  }
+  .col-full{
+    width: 100%;
+  }
+  .contact-heading{
+    padding: 10% 40% 0%;
+    font-size: 4vw;
+  }
+  .contact-sub{
+    padding: 0% 35% 0% ;
+    margin-left: 13%;
+    font-size: 1vw;
+  }
+  .contact-item,.team-member{
+    font-size: 1.1vw;
+  }
+  .contact-item-link{
+    text-decoration: none;
+    color: black;
+  }
+  .contact-item-link:hover,.team-member-link:hover{
+  color: rgb(199, 10, 199);
+  }
+.form-control{
+    padding: 1.2vw;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  .form-send{
+    background-color: #000;
+    color: #fff;
+    padding: 1vw;
+    border: 1px solid #fff;
+   margin-left: 80%;
+  }
+  .form-send:hover{
+    background-color: rgba(225, 225, 225, 0.884);
+    cursor: pointer;
+  }
+  .map{
+    width: 100vw;
+    height: 30vw;
+  }
+  .foot{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  #footer{
+    padding: 10% 0 5% 0;
+    text-align: center;
+    background-color: #000;
+    color: rgb(199, 10, 199);
+  }
+  .team-member{
+    color: #fff;
+    text-align: left;
+    font-size: 100%;
+    padding: 0.5vw 1vw 0.5vw 4vw;
+    text-decoration: none;
+  }
+  .team-member-link
+    { 
+      color: #fff;
+      text-align: left;
+      text-decoration: none;
+      font-size: 100%;
+    }
+    .foot-heading{
+      padding-bottom: 10%;
+    }
+    .workingtime{
+      color: #fff;
+    text-align: center;
+    padding: 0.5vw 1vw 0.5vw 4vw;
+     font-size: 100%;
+    }
+    .foot-end{
+      padding-top: 5%;
+    }
+    .foot-icon{
+      font-size: 200%;
+    }
+    .foot-icon:hover{
+      color: red;
+    }
+  
