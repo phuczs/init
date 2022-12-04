@@ -148,7 +148,7 @@
     width: 100vw;
     max-width: 100%;
     margin: 0 auto;
-    background-color: #FFF6BF;
+    background-color: #3c4e9b;
   }
   .bd{
     border-bottom: 0.1px solid #000 ;
@@ -169,11 +169,11 @@
   .grid__collum-10 {
     padding: 0 4% 5% 4%;
     width: 75vw;
-    background-color: #7FE9DE;
+    background-color: #31749a;
   }
   .category {
     border-radius: 1vw;
-    background-color:#A5F1E9;
+    background-color:#334d8e;
     padding: 25% 0;
     margin-right: 15%;
   }
@@ -370,7 +370,7 @@
     width: 100vw;
     max-width: 100%;
     margin: 0 auto;
-    background-color: #FFF6BF;
+    background-color: #1b4f7a;
   }
   .bd{
     border-bottom: 0.1px solid #000 ;
@@ -391,11 +391,11 @@
   .grid__collum-10 {
     padding: 0 4% 5% 4%;
     width: 75vw;
-    background-color: #7FE9DE;
+    background-color: #4185ce;
   }
   .category {
     border-radius: 1vw;
-    background-color:#A5F1E9;
+    background-color:#4185ce;
     padding: 25% 0;
     margin-right: 15%;
   }
@@ -585,14 +585,9 @@
     .left-col {
       width: 45vw;
       height: 100%;
-      background-image: url("https://images.pexels.com/photos/931018/pexels-photo-931018.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+      background-image: url("https://images.unsplash.com/photo-1611794485509-701be5a5d4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8b2NlYW4lMjBibHVlfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
       background-size: cover;
       background-repeat: no-repeat;
-    }
-    
-    .logo {
-      width: 10rem;
-      padding: 1.5rem;
     }
     
     .right-col {
@@ -602,26 +597,10 @@
       padding: 5rem 3.5rem;
     }
     
-    h1, label, button, .description {
+    label, button, .description {
       font-family: 'Jost', sans-serif;
       font-weight: 400;
       letter-spacing: 0.1rem;
-    }
-    
-    h1 {
-      color:var(--h1-color);
-      text-transform: uppercase;
-      font-size: 2.5rem;
-      letter-spacing: 0.5rem;
-      font-weight: 300;
-    }
-    
-    p {
-      color: var(--secondary-color);
-      font-size: 0.9rem;
-      letter-spacing: 0.01rem;
-      width: 40vw;
-      margin: 0.25rem 0;
     }
     
     label, .description {
